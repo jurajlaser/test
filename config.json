@@ -1,0 +1,16 @@
+{
+  "name": "Rygel DLNA Server",
+  "version": "1.0.0",
+  "slug": "rygel",
+  "description": "DLNA/UPnP Media Server for Home Assistant OS",
+  "startup": "services",
+  "boot": "auto",
+  "arch": ["armhf", "armv7", "aarch64", "amd64"],
+  "host_network": true,
+  "map": ["share:rw"],
+  "options": {},
+  "schema": {},
+  "ports": {},
+  "webui": "",
+  "image": null
+}
